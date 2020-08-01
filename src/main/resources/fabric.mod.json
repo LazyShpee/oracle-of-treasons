@@ -16,7 +16,7 @@
     "main": [
       "eu.petikek.OracleOfTreasons"
     ],
-    "client": [],
+    "client": ["eu.petikek.OracleOfTreasonsClient"],
     "server": []
   },
   "mixins": [
