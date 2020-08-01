@@ -13,6 +13,6 @@ public class OracleEntityRenderer extends MobEntityRenderer<OracleEntity, Oracle
 
     @Override
     public Identifier getTexture(OracleEntity entity) {
-        return new Identifier("creajam_oot", "textures/entity/oracle/oracle3.png");
+        return new Identifier("creajam_oot", "textures/entity/oracle/oracle.png");
     }
 }

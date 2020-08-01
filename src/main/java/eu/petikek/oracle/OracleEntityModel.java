@@ -66,6 +66,7 @@ public class OracleEntityModel<T extends Entity> extends CompositeEntityModel<T>
         this.leftLeg.mirror = true;
         this.leftLeg.setPivot(2.0F, 12.0F, 0.0F);
         this.leftLeg.addCuboid(-2.0F, 0.0F, -2.0F, 4.0F, 12.0F, 4.0F, scale);
+        this.disableNose();
     }
 
     public Iterable<ModelPart> getParts() {
@@ -115,5 +116,9 @@ public class OracleEntityModel<T extends Entity> extends CompositeEntityModel<T>
         }
     }
 
+    public void disableNose() {
+        this.nose.visible = false;
+        this.nose2.visible = false;
+    }
 
 }
