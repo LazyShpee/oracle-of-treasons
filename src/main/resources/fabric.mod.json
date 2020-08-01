@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "creajam_oot",
+  "version": "${version}",
+  "name": "Oracle of Treasons",
+  "description": "Creajam #22 coop submission",
+  "authors": [
+    "Bidoof & LazyShpee"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/creajam_oot/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eu.petikek.OracleOfTreasons"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "creajam_oot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}
