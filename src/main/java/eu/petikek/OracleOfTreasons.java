@@ -24,7 +24,7 @@ public class OracleOfTreasons implements ModInitializer {
     public static final EntityType<OracleEntity> ORACLE_ENTITY_TYPE = Registry.register(
             Registry.ENTITY_TYPE,
             new Identifier("creajam_oot", "oracle"),
-            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, OracleEntity::new).dimensions(EntityDimensions.fixed(0.75f, 0.75f)).build()
+            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, OracleEntity::new).dimensions(EntityDimensions.fixed(0.75f, 2.12f)).build()
     );
 
     @Override
