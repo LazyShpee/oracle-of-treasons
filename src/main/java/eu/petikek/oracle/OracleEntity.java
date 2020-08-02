@@ -5,6 +5,8 @@ import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.passive.*;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.ListTag;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.village.TradeOffer;
@@ -25,8 +27,10 @@ public class OracleEntity extends WanderingTraderEntity {
     }
 
     public ActionResult interactMob(PlayerEntity player, Hand hand) {
-        if (player.getStackInHand(hand).getItem() == Items.MYSTERY_FORTUNE_COOKIE) {
-            player.getStackInHand(hand).addEnchantment(Enchantments.FIRE_ASPECT, 1);
+        ItemStack stack = player.getStackInHand(hand);
+        ListTag enchants = stack.getEnchantments();
+        if (stack.getItem() == Items.MYSTERY_FORTUNE_COOKIE && enchants.size() == 0) {
+            stack.addEnchantment(Enchantments.FORTUNE, 1);
             return ActionResult.SUCCESS;
         }
         return ActionResult.FAIL;
