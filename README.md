@@ -12,7 +12,7 @@ Oracle of Treasons is a Minecraft 1.16.1 Mod, developped with the [Fabric API](h
 ## How did you even had this idea ?
 
 With great development power comes great stupidity.
-We're doing a new "creative jam" every week and this (27/07/2020 - 02/08/2020) week we choose to make an MC Mod.
+We're doing a new "creative jam" every week and this (27/07/2020 - 02/08/2020) week we choose to make a MC Mod.
 
 ## Who developed this abomination ?
 
@@ -22,20 +22,20 @@ Bidoof - Oracle Entity & Texture,
 
 LazyShpee - Cookies Item, Textures & Behavior
 
-[Shpee's Twitter](https://github.com/LazyShpee)
+[Shpee's Github](https://github.com/LazyShpee)
 
-## Can I contribute/steal some part ?
+## Can I contribute/fork/steal some parts ?
 
 We're under MIT License, so yeah, open source baby.
-We would prefer you talking to us before doing any kind of pull request, we're available on the Official Fabric Discord (Bidoof#0399 & LazyShpee#0042)
+We would prefer knowing that you want to work on our mod before doing any kind of pull request, we're available on the Official Fabric Discord (Bidoof#0399 & LazyShpee#0042)
 
-## Is the title a Reference to Zelda, do you know treason do not take an s at the end ?
+## Is the title a Reference to Zelda, do you know treason doesn't take an s at the end ?
 
 Yes and yes, we're french so we have to suck at english.
 
 ## Can you port this to Forge ?
 
-No
+__No.__
 
 ## Thanks to this guy
 
