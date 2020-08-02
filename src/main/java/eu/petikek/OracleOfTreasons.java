@@ -13,9 +13,9 @@ import net.minecraft.util.registry.Registry;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import eu.petikek.registry.*;
 
 public class OracleOfTreasons implements ModInitializer {
-
     public static Logger LOGGER = LogManager.getLogger();
 
     public static final String MOD_ID = "creajam_oot";
@@ -23,7 +23,7 @@ public class OracleOfTreasons implements ModInitializer {
 
     public static final EntityType<OracleEntity> ORACLE_ENTITY_TYPE = Registry.register(
             Registry.ENTITY_TYPE,
-            new Identifier("creajam_oot", "oracle"),
+            id("oracle"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, OracleEntity::new).dimensions(EntityDimensions.fixed(0.75f, 2.12f)).build()
     );
 
@@ -31,6 +31,12 @@ public class OracleOfTreasons implements ModInitializer {
     public void onInitialize() {
         log(Level.INFO, "Initializing");
         FabricDefaultAttributeRegistry.register(ORACLE_ENTITY_TYPE, OracleEntity.createMobAttributes());
+
+        Items.init();
+    }
+
+    public static Identifier id(String name) {
+        return new Identifier(MOD_ID, name);
     }
 
     public static void log(Level level, String message){
