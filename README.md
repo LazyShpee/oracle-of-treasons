@@ -29,7 +29,7 @@ LazyShpee - Cookies Item, Textures & Behavior
 We're under MIT License, so yeah, open source baby.
 We would prefer knowing that you want to work on our mod before doing any kind of pull request, we're available on the Official Fabric Discord (Bidoof#0399 & LazyShpee#0042)
 
-## Is the title a Reference to Zelda, do you know treason doesn't take an s at the end ?
+## Is the title a reference to Zelda, do you know treason doesn't take an s at the end ?
 
 Yes and yes, we're french so we have to suck at english.
 
@@ -37,7 +37,7 @@ Yes and yes, we're french so we have to suck at english.
 
 __No.__
 
-## Thanks to this guy
+## Thanks to this guy tho, he's the boss
 
 [@Linguardium](https://github.com/Linguardium) for his unwavering answering to our questions on the Fabric Discord and his villager model on which we based the Oracle.
 
