@@ -10,10 +10,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.registry.Registry;
 
 public class Items {
-    public static final ItemGroup GROUP = FabricItemGroupBuilder.create(
-            OracleOfTreasons.id("group"))
-            .icon(() -> new ItemStack(net.minecraft.item.Items.BOWL))
-            .build();
+    public static final ItemGroup GROUP = FabricItemGroupBuilder.build(
+            OracleOfTreasons.id("group"),
+           () -> new ItemStack(Items.MYSTERY_FORTUNE_COOKIE));
 
     public static final Item MYSTERY_FORTUNE_COOKIE = new MysteryFortuneCookie(new Item.Settings().group(GROUP));
     public static final Item OPENED_FORTUNE_COOKIE = new OpenedFortuneCookie(new Item.Settings().group(GROUP));

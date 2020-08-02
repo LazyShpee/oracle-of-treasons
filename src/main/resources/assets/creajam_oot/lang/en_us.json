@@ -1,4 +1,6 @@
 {
   "entity.creajam_oot.oracle": "Oracle",
+  "item.creajam_oot.mystery_fortune_cookie": "Mystery Fortune Cookie",
+  "item.creajam_oot.opened_fortune_cookie": "Opened Fortune Cookie",
   "itemGroup.creajam_oot.group": "Oracle of Treasons"
 }
