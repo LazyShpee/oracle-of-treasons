@@ -9,12 +9,12 @@ Oracle of Treasons is a Minecraft 1.16.1 Mod, developped with the [Fabric API](h
 * An Oracle, which can trade mystery cookies and imbue them with magic.
 * New Cookies with new surprises effects.
 
-## How did you even had this idea
+## How did you even had this idea ?
 
 With great development power comes great stupidity.
 We're doing a new "creative jam" every week and this (27/07/2020 - 02/08/2020) week we choose to make an MC Mod.
 
-## Who did this
+## Who developed this abomination ?
 
 Bidoof - Oracle Entity & Texture, 
 
@@ -24,11 +24,7 @@ LazyShpee - Cookies Item, Textures & Behavior
 
 [Shpee's Twitter](https://github.com/LazyShpee)
 
-## Thanks
-
-[@Linguardium](https://github.com/Linguardium)  for his unwavering answering to our questions on the Fabric Discord and his villager model on which we based the Oracle.
-
-## Can I contribute/steal some part
+## Can I contribute/steal some part ?
 
 We're under MIT License, so yeah, open source baby.
 We would prefer you talking to us before doing any kind of pull request, we're available on the Official Fabric Discord (Bidoof#0399 & LazyShpee#0042)
@@ -40,3 +36,8 @@ Yes and yes, we're french so we have to suck at english.
 ## Can you port this to Forge ?
 
 No
+
+## Thanks to this guy
+
+[@Linguardium](https://github.com/Linguardium) for his unwavering answering to our questions on the Fabric Discord and his villager model on which we based the Oracle.
+
