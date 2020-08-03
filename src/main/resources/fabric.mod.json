@@ -14,9 +14,9 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "eu.petikek.OracleOfTreasons"
+      "eu.petikek.creajam_oot.OracleOfTreasons"
     ],
-    "client": ["eu.petikek.OracleOfTreasonsClient"],
+    "client": ["eu.petikek.creajam_oot.OracleOfTreasonsClient"],
     "server": []
   },
   "mixins": [

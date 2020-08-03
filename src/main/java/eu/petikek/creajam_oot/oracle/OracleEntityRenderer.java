@@ -1,6 +1,5 @@
-package eu.petikek.oracle;
+package eu.petikek.creajam_oot.oracle;
 
-import eu.petikek.oracle.OracleEntity;
 import net.minecraft.client.render.entity.EntityRenderDispatcher;
 import net.minecraft.client.render.entity.MobEntityRenderer;
 import net.minecraft.util.Identifier;

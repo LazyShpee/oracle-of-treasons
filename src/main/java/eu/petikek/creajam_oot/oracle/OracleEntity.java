@@ -1,6 +1,6 @@
-package eu.petikek.oracle;
+package eu.petikek.creajam_oot.oracle;
 
-import eu.petikek.registry.Items;
+import eu.petikek.creajam_oot.registry.Items;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.passive.*;

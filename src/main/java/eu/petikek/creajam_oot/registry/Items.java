@@ -1,8 +1,8 @@
-package eu.petikek.registry;
+package eu.petikek.creajam_oot.registry;
 
-import eu.petikek.OracleOfTreasons;
-import eu.petikek.item.MysteryFortuneCookie;
-import eu.petikek.item.OpenedFortuneCookie;
+import eu.petikek.creajam_oot.OracleOfTreasons;
+import eu.petikek.creajam_oot.item.MysteryFortuneCookie;
+import eu.petikek.creajam_oot.item.OpenedFortuneCookie;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

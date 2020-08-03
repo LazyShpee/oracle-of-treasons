@@ -1,4 +1,4 @@
-package eu.petikek.item;
+package eu.petikek.creajam_oot.item;
 
 import net.minecraft.item.Item;
 

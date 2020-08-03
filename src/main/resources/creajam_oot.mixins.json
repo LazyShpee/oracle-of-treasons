@@ -1,8 +1,8 @@
 {
   "required": true,
-  "package": "eu.petikek.mixin",
+  "package": "eu.petikek.creajam_oot.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [],
+  "mixins": ["WanderingTraderManagerMixin", "WanderingTraderEntityMixin"],
   "client": [],
   "server": [],
   "injectors": {

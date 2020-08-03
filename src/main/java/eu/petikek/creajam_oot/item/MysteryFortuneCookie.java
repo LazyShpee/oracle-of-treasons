@@ -1,6 +1,6 @@
-package eu.petikek.item;
+package eu.petikek.creajam_oot.item;
 
-import eu.petikek.registry.Items;
+import eu.petikek.creajam_oot.registry.Items;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -54,7 +54,6 @@ public class MysteryFortuneCookie extends Item {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity playerEntity, Hand hand) {
         ItemStack stack = playerEntity.getStackInHand(hand);
         ListTag enchants = stack.getEnchantments();
-
         if (enchants.size() == 0) {
             return new TypedActionResult<>(ActionResult.FAIL, playerEntity.getStackInHand(hand));
         }

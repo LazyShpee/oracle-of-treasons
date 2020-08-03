@@ -1,6 +1,7 @@
-package eu.petikek;
+package eu.petikek.creajam_oot;
 
-import eu.petikek.oracle.OracleEntityRenderer;
+import eu.petikek.creajam_oot.oracle.OracleEntityRenderer;
+import eu.petikek.creajam_oot.registry.Entities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -11,8 +12,6 @@ public class OracleOfTreasonsClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        EntityRendererRegistry.INSTANCE.register(OracleOfTreasons.ORACLE_ENTITY_TYPE, (dispatcher, context) -> {
-            return new OracleEntityRenderer(dispatcher);
-        });
+        EntityRendererRegistry.INSTANCE.register(Entities.ORACLE_ENTITY_TYPE, (dispatcher, context) -> new OracleEntityRenderer(dispatcher));
     }
 }

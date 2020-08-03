@@ -1,4 +1,4 @@
-package eu.petikek.oracle;
+package eu.petikek.creajam_oot.oracle;
 
 import net.minecraft.client.model.ModelPart;
 import com.google.common.collect.ImmutableList;
